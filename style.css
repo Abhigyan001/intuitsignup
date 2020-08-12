@@ -70,21 +70,41 @@ header {
 
 
 
-label, input {
+ input {
     display: block;
-    width: 90%;
-    margin: 10px 0;
-    text-align: left;    
+    width:90%;
+    text-align: left;
+    margin: 10px auto;
+}
+label {
+  display: block;
+  width:92%;
+  text-align: left;
+  margin: 5px auto;
+}
+
+input {
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 110%;
+}
+#msg {
+  margin: 0;
+  text-align:center;
+  font-size:12px;
 }
 
 #createaccount {
     width: 90%;
     background-color: #0077C5;
     color:white;
-    height:35px;
+    height:45px;
     border: 1px white solid;
     border-radius: 5px;
-    transition: all .2s ease;
+    margin: 3% 0;
+    font-size: 110%;
 }
 
 .mintform a {
@@ -99,13 +119,20 @@ label, input {
     width:25rem;
     margin: 0 auto;
     background-color: white;
-    padding: 2%;
+    padding: 3%;
+    border: #a7a7a7 1px solid;
 }
 
 .formfooter {
-    border: 1px solid grey;
-    border-top: none;
-    margin-top: 0;
+      margin-top: 10px;
+      background-color: #ECEEF1;
+      font-size: .7rem;
+      width: calc(100% - 1px) margin-right: 5px;
+      text-align: center;
+      border: #a7a7a7 1px solid;
+      border-top: none;
+      position: relative;
+      bottom: 10px;
 }
 
 .formfooter p {
@@ -116,4 +143,22 @@ label, input {
 .formfooter a {
     text-decoration: none;
     color: #0077C5;
+}
+
+#terms {
+  font-size: 12px;
+  text-align: center;
+}
+
+.create {
+  margin-right:10px;
+}
+
+#passgroup {
+  margin-top: 5%;
+}
+
+.mainfooter {
+  margin-top: 2%;
+  text-align: center;
 }
