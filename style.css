@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 body {
       background-color:#ECEEF1;
       margin: 0;
       padding: 0;
+      font-family: 'Roboto Slab', serif;
 
 }
 
@@ -23,6 +26,7 @@ header {
 }
 .navp {
   margin:1px;
+  font-size:85%;
 }
 
 #signup {
@@ -161,4 +165,16 @@ input {
 .mainfooter {
   margin-top: 2%;
   text-align: center;
+  font-size: 85%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-right: 10px;
 }
