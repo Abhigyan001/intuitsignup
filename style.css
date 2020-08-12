@@ -206,3 +206,15 @@ li {
 .endtexts, li {
     font-size: 11px;
 }
+
+.iconinput {
+  position: relative;
+}
+
+.iconinput i {
+  position: absolute;
+  top: 13px;
+  left: 90%;
+  color: grey;  
+}
+
