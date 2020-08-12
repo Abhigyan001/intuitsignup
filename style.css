@@ -67,3 +67,53 @@ header {
   align-items: center;
   font-size: 120%;
 }
+
+
+
+label, input {
+    display: block;
+    width: 90%;
+    margin: 10px 0;
+    text-align: left;    
+}
+
+#createaccount {
+    width: 90%;
+    background-color: #0077C5;
+    color:white;
+    height:35px;
+    border: 1px white solid;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+.mintform a {
+    text-decoration: none;
+}
+
+.forminput label {
+    margin: 10px auto;
+}
+
+.main {
+    width:25rem;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2%;
+}
+
+.formfooter {
+    border: 1px solid grey;
+    border-top: none;
+    margin-top: 0;
+}
+
+.formfooter p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.formfooter a {
+    text-decoration: none;
+    color: #0077C5;
+}
