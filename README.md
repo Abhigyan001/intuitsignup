@@ -8,7 +8,7 @@ This is a project to demonstrate the exisiting knowledge of HTML and CSS. It is 
 
 Built With HTML, CSS, GIT, ATOM and VSCODE
 
-Live Demo 
+Live Demo : https://intuitsignup.netlify.app/
 
 Getting Started
 
