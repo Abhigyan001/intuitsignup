@@ -11,7 +11,7 @@
 <body>
 
 <header>
-  <nav class="navbar">
+  <nav class="navbar flex">
     <div class="navtext">
       <p class="navp">Already have an Intuit account?</p>
       <p class="navp"><a href="" target="_blank" id="link">I forgot my User ID or Password</a></p>
@@ -26,7 +26,7 @@
 
   <div class="conthead">
     <img src="icons/intuit-logo.png" alt="intuit" id="intuit">
-  <div class="icongroup">
+  <div class="icongroup flex align">
     <img src="icons/mint.png" alt="mint" class="icon">
     <p>Mint</p>
     <img src="icons/quickbox.png" alt="quickbooks" class="icon">
@@ -45,22 +45,18 @@
 
     <form class="mintform">
       <div class="forminputs">
-        <label>Email Address</label>
+        <label>Email Address:</label>
         <input type="email" name="email">
       </div>
       <div class="forminputs">
-        <label>Phone (recommended)</label>
+        <label>Phone (recommended):</label>
         <input type="number" name="phone">
         <p id="msg">Standard call, messaging or data rates may apply.</p>
       </div>
       <div class="forminputs" id ="passgroup">
-        <label>Password</label>
-        <div class="iconinput">
-          <input type="password" name="password">
-          <i class="fas fa-unlock"></i>
-        </div>        
+        <label>Password:</label>
+        <input type="password" name="password">
       </div>
-      
       <div class="btncont">
         <button id="createaccount"><i class="fas fa-unlock-alt create"></i>Create Account</button>
       </div>
@@ -69,15 +65,19 @@
         our <a href="#">Privacy Statement</a></i></p>
  </form>
 </section>
+
 <footer class="formfooter">
-  <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+  <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="">Terms of Use</a></p>
 </footer>
+
 </main>
+
+
 
 
 <footer class="mainfooter">
 
-<ul>
+<ul class="flex align">
   <li>Legal</li>
   <li>Privacy</li>
   <li>Security</li>
