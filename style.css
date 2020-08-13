@@ -9,6 +9,13 @@ body {
 }
 
 
+.flex {
+  display: flex;
+}
+.align {
+    align-items: center;
+    justify-content: center;
+}
 
 .navtext {
  color: black;
@@ -21,7 +28,6 @@ header {
 }
 
 .navbar {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 1% 0;
@@ -68,9 +74,6 @@ header {
 }
 
 .icongroup {
-  display: flex;
-  justify-content:center;
-  align-items: center;
   font-size: 120%;
 }
 
@@ -147,12 +150,12 @@ input {
     color: rgb(97, 93, 93);
 }
 
- 
+
 .formfooter {
       margin-top: 10px;
       background-color: #ECEEF1;
       font-size: .7rem;
-      width: 106%; 
+      width: 106%;
       margin-right: 5px;
       text-align: center;
       border: #cec0c0 1px solid;
@@ -165,7 +168,7 @@ input {
 
 .formfooter a {
     text-decoration: none;
-    color: blue;    
+    color: blue;
 }
 
 #terms {
@@ -194,9 +197,6 @@ input {
 
 ul {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 li {
@@ -215,6 +215,5 @@ li {
   position: absolute;
   top: 13px;
   left: 90%;
-  color: grey;  
+  color: grey;
 }
-
