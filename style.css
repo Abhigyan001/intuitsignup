@@ -8,6 +8,8 @@ body {
 
 }
 
+
+
 .navtext {
  color: black;
  margin-right:10px;
@@ -52,7 +54,7 @@ header {
   width:25rem;
   margin: 0 auto;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 #intuit {
@@ -76,22 +78,24 @@ header {
 
  input {
     display: block;
-    width:95%;
+    width:90%;
     text-align: left;
     margin: 10px auto;
-    height: 30px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding-left: 10px;
-    font-size: 110%;
 }
 label {
   display: block;
-  width:95%;
+  width:92%;
   text-align: left;
   margin: 5px auto;
 }
 
+input {
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 110%;
+}
 #msg {
   margin: 0;
   text-align:center;
@@ -99,7 +103,7 @@ label {
 }
 
 #createaccount {
-    width: 100%;
+    width: 90%;
     background-color: #0077C5;
     color:white;
     height:45px;
@@ -117,40 +121,61 @@ label {
     margin: 10px auto;
 }
 
+.forminputs {
+    margin: 10% auto;
+}
+
 .main {
     width:25rem;
     margin: 0 auto;
     background-color: white;
     padding: 3%;
-    border: #a7a7a7 1px solid;
+    border: #cec0c0 1px solid;
+    border-bottom: none;
 }
 
+.main a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    margin-top: -3%;
+    margin-bottom: 8%;
+}
+
+.main h3 {
+    font-size: 25px;
+    color: rgb(97, 93, 93);
+}
+
+ 
 .formfooter {
-      position: relative;
-      width: 100%;
       margin-top: 10px;
       background-color: #ECEEF1;
       font-size: .7rem;
+      width: 106%; 
+      margin-right: 5px;
       text-align: center;
-      border: #a7a7a7 1px solid;
+      border: #cec0c0 1px solid;
       border-top: none;
-      padding:5px 12px;
+      position: relative;
       bottom: 10px;
+      padding-top: 10px;
 }
 
-.formfooter p {
-    font-size: 10px;
-    text-align: center;
-}
 
 .formfooter a {
     text-decoration: none;
-    color: #0077C5;
+    color: blue;    
 }
 
 #terms {
   font-size: 12px;
   text-align: center;
+  padding: 4% 18%;
+}
+
+#terms a{
+    display: inline;
 }
 
 .create {
@@ -177,3 +202,19 @@ ul {
 li {
   margin-right: 10px;
 }
+
+.endtexts, li {
+    font-size: 11px;
+}
+
+.iconinput {
+  position: relative;
+}
+
+.iconinput i {
+  position: absolute;
+  top: 13px;
+  left: 90%;
+  color: grey;  
+}
+
