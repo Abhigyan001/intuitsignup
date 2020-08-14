@@ -8,17 +8,17 @@ Additional description about the project and its features.
 
 This is a project to demonstrate the exisiting knowledge of HTML and CSS. It is a collaborative project which recreates the Intuit Signup Page.
 
-Built With HTML, CSS, GIT, ATOM and VSCODE
+<i>Built With HTML, CSS, GIT, ATOM and VSCODE</i>
 
 Live Demo : https://intuitsignup.netlify.app/
 
-Getting Started
+<h1>Getting Started</h1>
 
 To get a local copy up and running follow these simple example steps.
 
 Prerequisites Text editor,Github profile and Git.
 
-Authors
+<h2>Authors</h2>
 
 👤 Author1
 
