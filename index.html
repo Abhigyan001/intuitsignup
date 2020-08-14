@@ -29,7 +29,7 @@
   <div class="icongroup flex align">
     <img src="icons/mint.png" alt="mint" class="icon">
     <p>Mint</p>
-    <img src="icons/quickbox.png" alt="quickbooks" class="icon">
+    <img src="icons/quickbox.png" alt="quickbooks" class="icon">         
     <p>Quickbooks</p>
     <img src="icons/turbotax.png" alt="turbotax" class="icon">
     <p>Turbotax</p>
@@ -45,18 +45,18 @@
 
     <form>
       <div class="forminputs">
-        <label>Email Address</label>
-        <input type="email" name="email">
+        <label for="email" >Email Address</label>
+        <input type="email" name="email" id="email" required>
       </div>
       <div class="forminputs">
-        <label>Phone (recommended)</label>
-        <input type="number" name="phone">
+        <label for="phone">Phone (recommended)</label>
+        <input id="phone" type="number" name="phone">
         <p id="msg">Standard call, messaging or data rates may apply.</p>
       </div>
       <div class="forminputs" id ="passgroup">
-        <label>Password</label>
+        <label for="pass">Password</label>
         <div class="iconinput">
-          <input type="password" name="password">
+          <input type="password" name="password" id="pass" required>
           <i class="fas fa-unlock"></i>
         </div>
       </div>
