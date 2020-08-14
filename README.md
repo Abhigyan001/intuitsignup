@@ -2,6 +2,8 @@
 
 Second project of Avijit Karmaker and Abhigyan Mahanta
 
+<img src="icons/mintsignup.PNG" alt="intuitsignup">
+
 Additional description about the project and its features.
 
 This is a project to demonstrate the exisiting knowledge of HTML and CSS. It is a collaborative project which recreates the Intuit Signup Page.
