@@ -26,7 +26,7 @@ Github: @ajkacca457 Twitter: @ajkacca Linkedin: https://www.linkedin.com/in/avij
 
 👤 Author2
 
-Github: @Abhigyan001 Linkedin: https://www.linkedin.com/in/abhigyan-mahanta-b49799145/
+Github: @Abhigyan001 Linkedin: https://www.linkedin.com/in/abhigyan001/
 
 🤝 Contributing Contributions, issues and feature requests are welcome!
 
